@@ -1,0 +1,16 @@
+// Place all the styles related to the ApplicationController controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+// variables
+@import "base/variables";
+@import "base/default";
+
+// partials - main css files
+@import "partials/*";
+@import "partials/layout/*";
+
+// Media queries for responsiveness
+@import "responsive/*";
